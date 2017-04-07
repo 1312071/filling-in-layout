@@ -1,0 +1,15 @@
+<% provide :title, @user.name %>
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <%= gravatar_for @user, size: Settings.gravatar_params %>
+        <%= @user.name %>
+      </h1>
+    </section>
+  </aside>
+</div>
+
+<%= t ".name" %><%= @user.name %>, <%= t ".email" %><%= @user.email %></br>
+<%= t ".created_at" %> <%= @user.created_at %>,<%= t ".updated_at" %><%= @user.updated_at %>
+<%= Time.now.strftime t(".time_default") %>

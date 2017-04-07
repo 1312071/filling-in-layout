@@ -21,4 +21,20 @@ en:
       title: "About"
     help:
       title: "Help"
-
+  users:
+    show:
+      time_default: "%m/%d/%Y %H:%M:%S"
+    new:
+      title: "Sign up"
+      btn_create: "Create my account"
+      confirmation: "Confirmation"
+    create:
+      signup_welcome: "Welcome to the Sample App!"
+    show:
+      name: "Name "
+      email: "Email "
+      created_at: "Created at: "
+      updated_at: "Updated at: "
+  shared:
+    error_messages:
+      form_contains: "The form contains "
