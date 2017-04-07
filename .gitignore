@@ -4,4 +4,4 @@ config/settings/*.local.yml
 config/environments/*.local.yml
 tmp/cache/
 log/development.log
-
+.byebug_history
