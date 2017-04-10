@@ -21,6 +21,8 @@ en:
       alt_kitten: "Kitten"
       alt_logo: "Rails logo"
       sign_up_now: "Sign up now!"
+      admin_required: "Only admin account can delete user!"
+      uncorrect_user: "User's profile must update by themself!"
     contact:
       contact: "Contact"
     about:
@@ -41,6 +43,24 @@ en:
       email: "Email "
       created_at: "Created at: "
       updated_at: "Updated at: "
+      user_invalid: "Invalid user"
+    edit:
+      btn_edit: "Save changes"
+      title: "Edit user"
+      update_profile: "Update your profile"
+      change: "Change"
+      log_in: "Please log in."
+    update:
+      update_success: "Profile updated"
+    index:
+      title: "All users"
+      log_in: "Please log in."
+    destroy:
+      delete_user: "User deleted"
+      delete_failed: "Delete failed"
+    user:
+      delete: "delete"
+      confirm: "You sure?"
   shared:
     error_messages:
       form_contains: "The form contains "
