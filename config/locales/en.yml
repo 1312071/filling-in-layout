@@ -9,6 +9,12 @@ en:
       help: "Help"
       login: "Log in"
       sample_ap: "sample app"
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
+      logout: "Log out"
+      login: "Log in"
   static_pages:
     home:
       welcome: "Welcome to Sample App"
@@ -38,3 +44,10 @@ en:
   shared:
     error_messages:
       form_contains: "The form contains "
+  sessions:
+    create:
+      invalid: "Invalid email/password combination"
+    new:
+      title: "Log in"
+      new_user: "New user? "
+      sign_up: "Sign up now!"
