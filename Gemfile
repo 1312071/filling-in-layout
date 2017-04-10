@@ -18,6 +18,9 @@ gem "bootstrap-sass"
 gem "bcrypt", "3.1.11"
 gem "config"
 gem "i18n"
+gem "faker", "1.6.6"
+gem "will_paginate"
+gem "bootstrap-will_paginate"
 
 group :development, :test do
   gem "byebug", platform: :mri
