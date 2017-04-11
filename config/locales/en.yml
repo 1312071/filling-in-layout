@@ -38,12 +38,14 @@ en:
       confirmation: "Confirmation"
     create:
       signup_welcome: "Welcome to the Sample App!"
+      check_your_email: "Please check your email to activate your account."
     show:
       name: "Name "
       email: "Email "
       created_at: "Created at: "
       updated_at: "Updated at: "
       user_invalid: "Invalid user"
+      user_activated: "Account activated!"
     edit:
       btn_edit: "Save changes"
       title: "Edit user"
@@ -67,8 +69,23 @@ en:
   sessions:
     create:
       invalid: "Invalid email/password combination"
+      account_not_activated: "Account not activated. "
+      check_your_email_to: "Check your email for the activation link."
     new:
       title: "Log in"
       new_user: "New user? "
       sign_up: "Sign up now!"
       remember_me: "Remember me on this computer"
+  account_activations:
+    edit:
+      invalid_activation: "Invalid activation link"
+      title: "Account Activations"
+      find_me_in: "Find me in"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      hi: "Hi "
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    password_reset:
+      title: "Reset password"
+      find_me_in: "find me in"
