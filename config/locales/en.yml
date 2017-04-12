@@ -23,6 +23,7 @@ en:
       sign_up_now: "Sign up now!"
       admin_required: "Only admin account can delete user!"
       uncorrect_user: "User's profile must update by themself!"
+      send_password_reset: "Email sent with password reset instructions"
     contact:
       contact: "Contact"
     about:
@@ -88,4 +89,27 @@ en:
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
     password_reset:
       title: "Reset password"
-      find_me_in: "find me in"
+      to_reset_password: "To reset your password click the link below:"
+      link_expire: "This link will expire in two hours."
+      ignore_reset_password: "If you did not request your password\
+        to be reset, please ignore this email and your password will stay as it is."
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+      password_reset_expired: "Password reset has expired."
+    create:
+      email_invalid: "Email address not found"
+    edit:
+      title: "Reset password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+      user_invalid: "User invalid or unactived!"
+    update:
+      can_not_be_empty: "can't be empty"
+      password_has_been_reset: "Password has been reset."
+  user_mailer:
+    password_reset:
+      password_reset: "Password reset"
+    account_activation:
+      account_activation: "Account activation"
