@@ -24,6 +24,10 @@ en:
       admin_required: "Only admin account can delete user!"
       uncorrect_user: "User's profile must update by themself!"
       send_password_reset: "Email sent with password reset instructions"
+      ruby_tutorial: "Ruby on Rails Tutorial"
+      home_page: "This is the home page for the"
+      sample_ap: "sample application."
+      micropost_feed: "Micropost Feed"
     contact:
       contact: "Contact"
     about:
@@ -31,8 +35,6 @@ en:
     help:
       title: "Help"
   users:
-    show:
-      time_default: "%m/%d/%Y %H:%M:%S"
     new:
       title: "Sign up"
       btn_create: "Create my account"
@@ -41,12 +43,9 @@ en:
       signup_welcome: "Welcome to the Sample App!"
       check_your_email: "Please check your email to activate your account."
     show:
-      name: "Name "
-      email: "Email "
-      created_at: "Created at: "
-      updated_at: "Updated at: "
       user_invalid: "Invalid user"
       user_activated: "Account activated!"
+      micropost: "Microposts"
     edit:
       btn_edit: "Save changes"
       title: "Edit user"
@@ -67,6 +66,13 @@ en:
   shared:
     error_messages:
       form_contains: "The form contains "
+      error: "error."
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose_new_micropost: "Compose new micropost..."
+      post: "Post"
   sessions:
     create:
       invalid: "Invalid email/password combination"
@@ -113,3 +119,16 @@ en:
       password_reset: "Password reset"
     account_activation:
       account_activation: "Account activation"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "Delete"
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+    micropost:
+      picture_size: "should be less than 5MB"
+      maximum_size: "Maximum file size is 5MB. Please choose a smaller file."
+      confirm_delete: "You sure?"

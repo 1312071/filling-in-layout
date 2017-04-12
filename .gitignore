@@ -7,3 +7,4 @@ log/development.log
 .byebug_history
 app/assets/javascripts/*.coffee
 app/assets/stylesheets/sessions.scss
+/public/uploads

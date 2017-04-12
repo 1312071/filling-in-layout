@@ -21,6 +21,9 @@ gem "i18n"
 gem "faker", "1.6.6"
 gem "will_paginate"
 gem "bootstrap-will_paginate"
+gem "carrierwave"
+gem "mini_magick"
+gem "fog"
 
 group :development, :test do
   gem "byebug", platform: :mri
