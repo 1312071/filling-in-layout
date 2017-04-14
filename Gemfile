@@ -24,6 +24,7 @@ gem "bootstrap-will_paginate"
 gem "carrierwave"
 gem "mini_magick"
 gem "fog"
+gem "i18n-js"
 
 group :development, :test do
   gem "byebug", platform: :mri

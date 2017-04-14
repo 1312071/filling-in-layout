@@ -9,4 +9,5 @@ max_content_leng: 140
 min_size_image: 5
 width: 400
 height: 400
-picture_size: 5
+picture_size: 1
+gravatar_follow: 30
