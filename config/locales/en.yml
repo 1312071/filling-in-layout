@@ -63,6 +63,17 @@ en:
     user:
       delete: "delete"
       confirm: "You sure?"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    following:
+      following: "Following"
+    followers:
+      follower: "Followers"
+    show_follow:
+      view_profile: "view my profile"
+      micropost: "Microposts:"
   shared:
     error_messages:
       form_contains: "The form contains "
@@ -73,6 +84,9 @@ en:
     micropost_form:
       compose_new_micropost: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "following"
+      follower: "followers"
   sessions:
     create:
       invalid: "Invalid email/password combination"
@@ -132,3 +146,15 @@ en:
       picture_size: "should be less than 5MB"
       maximum_size: "Maximum file size is 5MB. Please choose a smaller file."
       confirm_delete: "You sure?"
+  micropost:
+    alert:
+      maximum_size: "Maximum file size is 5MB. Please choose a smaller file."
+  follows:
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    following:
+      following: "Following"
+    followers:
+      follower: "Followers"

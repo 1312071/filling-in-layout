@@ -9,4 +9,12 @@ class ApplicationController < ActionController::Base
       redirect_to login_url
     end
   end
+
+  def load_user
+    @user = User.find_by id: params[:id]
+    unless @user
+      flash[:danger] = t ".user_invalid"
+      redirect_to users_url
+    end
+  end
 end

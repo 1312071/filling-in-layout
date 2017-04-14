@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: [:edit, :update, :index]
+  before_action :logged_in_user, only: [:index, :edit, :update]
   before_action :correct_user, only: [:edit, :update]
   before_action :is_admin, only: :destroy
   before_action :load_user, except: [:index, :new, :create]
@@ -68,14 +68,6 @@ class UsersController < ApplicationController
     unless current_user.admin?
       flash[:danger] = t ".admin_required"
       redirect_to root_url
-    end
-  end
-
-  def load_user
-    @user = User.find_by id: params[:id]
-    unless @user
-      flash[:danger] = t ".user_invalid"
-      redirect_to users_url
     end
   end
 end
